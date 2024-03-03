@@ -1,0 +1,151 @@
+/* feb 27, changed from multiple css pages to one */
+
+/*HOME & PLAY PAGE*/
+
+body{
+	margin-left: 200px;
+	margin-right: 210px;
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+
+/* chat gpt */
+.container img{
+	transition: transform 0.3s ease;
+}
+
+/* chat gpt */
+.container:hover img{
+	transform: scale(1.03);
+}
+
+/* chat gpt */
+.grid-container{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 1px;
+}
+
+/* chat gpt */
+.grid-item{
+	overflow: hidden;
+}
+
+/* chat gpt */
+.grid-item img{
+	width: 100%; /*fill in container*/
+	height: auto;
+}
+
+/*INFO PAGE*/
+
+		.background05{
+			background-image: url("2005BG.png");
+			background-size: cover;
+			background-position: center;
+			height: 100vh; /* chat gpt */
+		}
+
+		.background06{
+			background-image: url("2006BG.png");
+			background-size: cover;
+			background-position: center;
+			height: 100vh;
+		}
+
+		.background07{
+			background-image: url("2007BG.png");
+			background-size: cover;
+			background-position: center;
+			height: 100vh;
+		}
+
+		.background08{
+			background-image: url("2008BG.png");
+			background-size: cover;
+			background-position: center;
+			height: 100vh;
+		}
+
+		.background09{
+			background-image: url("2009BG.png");
+			background-size: cover;
+			background-position: center;
+			height: 100vh;
+		}
+
+@font-face{
+	font-family: terminal-grotesque;
+	src:url(terminal-grotesque-webfont.woff);
+}
+
+h3{
+	font-size: 45pt;
+	margin-left: 65px;
+	font-family: terminal-grotesque;
+	margin-bottom: 2px;
+	color: rgba(255, 255, 255, 1.0);
+
+}
+
+p{
+	font-size: 12.5pt;
+	font-family: terminal-grotesque;
+	color: rgba(0, 0, 0, 1.0);
+}
+ul{
+	font-size: 12.5pt;
+	font-family: terminal-grotesque;
+	color: rgba(0, 0, 0, 1.0);
+}
+
+/* chat gpt */
+.container-title{ 
+	text-align: center; /* center align horizontally-cgpt */
+    position: relative;
+    margin-top: 50px;
+}
+
+.container-back{ 
+	margin-left: 800px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.mainbox{
+	background-color: rgba(255, 255, 255, 1.0);
+	padding: 30px;
+	border-radius: 10px;
+	width: 880px;
+	margin-left: 50px;
+	align-items: center;
+}
+
+.listbox{
+	background-color: rgba(255, 255, 255, 1.0);
+	width: 200px;
+	margin-left: 50px;
+	padding: 50px;
+	border-radius: 10px;
+}
+
+  .memorybox {
+    display: grid; /* Use grid layout */
+    grid-template-columns: auto auto; /* Two columns, one for text and one for image */
+    gap: 20px; /* Gap between text and image */
+    align-items: center; /* Align items vertically */
+    margin: 100px;
+
+    background-color: rgba(255,252,242, 1.0);
+    padding: 30px;
+    border-radius: 10px;
+}
+        .text {
+            text-align: center; /* Center align text */
+        }
+        .image {
+            justify-self: end; /* Align image to the end of its column */
+        }
+
+/* i got alot of my code from the first tutorial that 
+we did in class and chat gpt */
