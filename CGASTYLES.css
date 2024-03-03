@@ -107,9 +107,14 @@ ul{
 }
 
 .container-back{ 
-	margin-left: 800px;
-    margin-top: 50px;
+	margin-right: 25px;
+    margin-top: 20px;
     margin-bottom: 50px;
+
+    position: fixed;
+    bottom: 0;
+    right: 0; /* Adjust if you want to position it from the right */
+    z-index: 9999; /* Ensure the image stays on top of other content */
 }
 
 .mainbox{
@@ -139,6 +144,7 @@ ul{
     background-color: rgba(255,252,242, 1.0);
     padding: 30px;
     border-radius: 10px;
+    margin-bottom: 20px;
 }
         .text {
             text-align: center; /* Center align text */
