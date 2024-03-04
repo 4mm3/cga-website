@@ -106,9 +106,9 @@ ul{
 }
 
 .container-back{ 
-	margin-right: 25px;
+	margin-right: 20px;
     margin-top: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 
     position: fixed;
     bottom: 0;
@@ -121,16 +121,8 @@ ul{
 	padding: 30px;
 	border-radius: 10px;
 	align-content: center;
-	margin-left: 30px;
-	margin-right: 30px;
-}
-
-.listbox{
-	background-color: rgba(255, 255, 255, 1.0);
-	width: 200px;
-	margin-left: 50px;
-	padding: 50px;
-	border-radius: 10px;
+	margin-left: 40px;
+	margin-right: 40px;
 }
 
   .memorybox {
@@ -138,12 +130,12 @@ ul{
     grid-template-columns: auto auto; /* Two columns, one for text and one for image */
     gap: 20px; /* Gap between text and image */
     align-items: center; /* Align items vertically */
-    margin: 100px;
-
-    background-color: rgba(255,252,242, 1.0);
-    padding: 30px;
+   	margin-left: 100px;
+   	margin-right: 100px;
+   	margin-bottom: 50px;
+    background-color: rgba(255,255,255, 1.0);
+    padding: 20px;
     border-radius: 10px;
-    margin-bottom: 20px;
 }
         .text {
             text-align: center; /* Center align text */
@@ -151,6 +143,10 @@ ul{
         .image {
             justify-self: end; /* Align image to the end of its column */
         }
+
+.botm{
+	margin-left: 100px;
+}
 
 /* i got alot of my code from the first tutorial that 
 we did in class and chat gpt */
