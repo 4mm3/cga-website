@@ -74,6 +74,13 @@ body{
 			height: 100vh;
 		}
 
+		.backgroundAB{
+			background-image: url("ABOUTBG.png");
+			background-size: cover;
+			background-position: center;
+			height: 100vh;
+		}
+
 @font-face{
 	font-family: terminal-grotesque;
 	src:url(terminal-grotesque-webfont.woff);
