@@ -81,7 +81,7 @@ body{
 			height: 100vh;
 		}
 
-@font-face{
+@font-face{ /* got font from velvetyne */
 	font-family: terminal-grotesque;
 	src:url(terminal-grotesque-webfont.woff);
 }
@@ -99,11 +99,7 @@ p{
 	font-family: terminal-grotesque;
 	color: rgba(0, 0, 0, 1.0);
 }
-ul{
-	font-size: 12.5pt;
-	font-family: terminal-grotesque;
-	color: rgba(0, 0, 0, 1.0);
-}
+
 
 /* chat gpt */
 .container-title{ 
@@ -119,8 +115,8 @@ ul{
 
     position: fixed;
     bottom: 0;
-    right: 0; /* Adjust if you want to position it from the right */
-    z-index: 9999; /* Ensure the image stays on top of other content */
+    right: 0; 
+    z-index: 9999; /* image stays on top of other content */
 }
 
 .mainbox{
@@ -133,7 +129,7 @@ ul{
 }
 
   .memorybox {
-    display: grid; /* Use grid layout */
+    display: grid; /* grid layout */
     grid-template-columns: auto auto; /* Two columns, one for text and one for image */
     gap: 20px; /* Gap between text and image */
     align-items: center; /* Align items vertically */
